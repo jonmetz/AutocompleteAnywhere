@@ -1,7 +1,7 @@
-var checkAndReplace = function (ele) {
-    var autocomplete = ele.autocomplete;
+var checkAndReplace = function (elemen) {
+    var autocomplete = elemen.autocomplete;
     if (autocomplete !== "" && autocomplete != "on")
-	ele.autocomplete = "on";
+	elemen.autocomplete = "on";
 };
 
 var checkElements = function() {
