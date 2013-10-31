@@ -1,0 +1,3 @@
+- [ ] Give user some kind of feedback after they press the icon
+- [ ] Add exception handling
+- [ ] Find out if users know to press the icon when they get to a specifc page or if they expect it to work automatically
