@@ -1,17 +1,15 @@
-var checkAndReplace = function (elemen) {
-    var autocomplete = elemen.autocomplete;
+var checkAndReplace = function (element) {
+    var autocomplete = element.autocomplete;
     if (autocomplete !== "" && autocomplete != "on")
 	elemen.autocomplete = "on";
 };
 
 var checkElements = function() {
-    var forms = document.forms;
-    for (var i = 0; i <= forms.length; i++) {
-	var form = forms[i];
-	checkAndReplace(form);
-	checkAndReplace(form.password);
-	checkAndReplace(form.username);
+    var elements = document.querySelectorAll('input[autocomplete="off"]');
+    for (var i = 0; i < elements.length; i += 1) {
+	var element = elements[i];
+	checkAndReplace(element);
     };
 };
 
-checkElements(); 
+checkElements();
