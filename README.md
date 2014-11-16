@@ -1,3 +1,14 @@
+MISSION ACCOMPLISHED!
+====================
+This bug was [fixed](https://bugzilla.mozilla.org/show_bug.cgi?id=956906) by Mozilla in Firefox 30.
+Current versions of Firefox ignore autocomplete="off" in password fields.
+
+Since Firefox is at version 33 at the time of this writing, no one should be using a Firefox version where this addon is actually necessary.
+
+This repository will be kept online for historical purposes but it is extremely unlikely that I will be updating it all. AutocompleteAnywhere should be considered abandonware.
+
+Note: that Chrome has also recently "fixed" this bug as well.
+
 AutocompleteAnywhere
 ====================
 Download the addon [here](https://addons.mozilla.org/en-US/firefox/addon/autocompleteanywhere/).
